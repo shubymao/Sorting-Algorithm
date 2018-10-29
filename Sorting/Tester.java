@@ -12,5 +12,10 @@ public class Tester {
         for(Integer term:(Integer[]) a){
             System.out.println(term);
         }
+        try  {
+            Thread.sleep(5000);
+        } catch (Exception e){
+
+        }
     }
 }
