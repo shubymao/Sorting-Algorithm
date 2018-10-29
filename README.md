@@ -1,3 +1,3 @@
 # Sorting-Algorithm
-Showing Different sorting algorithm in action
-\n Written in Java
+Showing Different sorting algorithm in action<br/>
+Written in Java
