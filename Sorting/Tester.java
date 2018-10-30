@@ -7,15 +7,10 @@ public class Tester {
         for(int i=0;i<50;i++){
         a[i]=(int)(Math.random()*100);
         }
-        BubbleSort<Integer> sorter= new BubbleSort<>();
+        MergeSort<Integer> sorter= new MergeSort();
         a=sorter.sort(a);
-        for(Integer term:(Integer[]) a){
-            System.out.println(term);
-        }
-        try  {
-            Thread.sleep(5000);
-        } catch (Exception e){
-
+        for(Comparable term: a){
+            System.out.println((Integer) term);
         }
     }
 }
